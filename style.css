@@ -1,0 +1,598 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header  */
+
+
+/* top bar  */
+.top-bar{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(46, 46, 46);
+}
+.top-middle{
+    width: 1000px;
+    height: 40px;
+    background-color: rgb(185, 185, 185);
+    color: black;
+    margin-top: 5px;
+    border-radius: 99px;
+}
+marquee{
+    line-height: 40px;
+    font-weight: 500;
+}
+.hea{
+    margin-right: 1rem;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.clock{
+    display: flex;
+    flex-direction: column;
+    line-height:7px;
+    margin-top: .5rem;
+    width: 100px;
+    margin-left: 1rem;
+    font-weight: 400;
+}
+
+/* logo bar */
+
+
+.logo-bar{
+    width: 100%;
+    height: 60px;
+
+}
+.Est{
+    height: 45px;
+    width: 150px;
+    background-color: #28a745;
+    
+    border-radius: 99px;
+    margin-top: .5rem;
+    color: #f8f9fa;
+    text-align: center;
+}
+.Estp{
+    font-size: 18px;
+    line-height: 45px;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
+
+
+/* menu- bar  */
+
+.menubar{
+    width: 100%;
+    height: 55px;
+    background-color: #007bff;
+}
+.menubar>.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+.menubarlist li a{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+.dropdown-menu{
+    margin-top: 3px;
+    background-color: #007bff;
+}
+
+.abtn{
+    height: 40px;
+    margin-top: .5rem;
+}
+
+
+/* slider */
+
+
+
+
+
+/* header end */
+
+
+/* main */
+
+
+/* main left  */
+
+
+/* modal   */
+.button{
+    background-color: #d3d3d4 ;
+    color: black;
+    padding: 10px;
+    border-radius:99px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 10px 1px;
+    margin-left: 60%;
+    
+}
+.button:hover{
+    outline: none;
+    border: none;
+    background-color: #219653;
+    color: white;
+
+}
+.img{
+    height: 200px;
+    width: 200px;
+    border-radius: 999px;
+    overflow: hidden;
+    border: 5px solid #219653;
+   
+}
+.profile2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-img{
+    width: 60%;
+    border-radius: 20px;
+}
+
+.profile{
+    max-width: 700px; 
+    height: 400px; 
+    background-color: #f0f0f0; 
+    border-radius: 20px;
+}
+.profile3{
+    max-width: 700px; 
+    height: 350px; 
+    background-color: #f0f0f0; 
+    border-radius: 20px;
+}
+.profile4{
+    max-width: 700px; 
+    height: 400px; 
+    background-color: #f0f0f0; 
+    border-radius: 20px;
+}
+.profile5{
+    max-width: 700px; 
+    height: 400px; 
+    background-color: #f0f0f0; 
+    border-radius: 20px;
+}
+
+/* main right */
+
+/* MUjib 100 */
+.mujib-logo{
+    max-width: 350px;
+    height: 285px;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    border: 3px solid #219653;
+    border-radius: 20px;
+    overflow: hidden;
+    
+    
+}
+.mujib-text{
+    background-color: #219653;
+    height: 60px;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 10px;
+    line-height: 55px;
+}
+
+/* notich */
+.notice-bord{
+    max-width: 350px;
+    height: 285px;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    border: 3px solid #219653;
+    border-radius: 20px;
+    overflow: hidden;
+    background: rgb(236, 236, 236);
+    
+    
+}
+.notice-text{
+    background-color: #219653;
+    height: 65px;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 10px;
+    line-height: 65px;
+    outline: none;
+}
+/* notice content */
+.notice-content{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.notice-date{
+    width: 60px;
+    height: 60px;
+    background-color: #eb5757;
+    text-align: center;
+    font-size: 30px;
+    line-height: 20px;
+    color: white;
+    border-radius: 10px;
+
+
+}
+
+/* calender */
+
+.Calendar{
+    max-width:350px;
+    height: 500px;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    border: 3px solid #219653;
+    border-radius: 20px; 
+    overflow: hidden;  
+}
+.calendar {
+    margin: auto;
+    width:100%;
+    background-color: #fff;
+
+}
+
+.month {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.weekdays {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 7px 0;
+    display: flex;
+}
+
+.days {
+    font-weight: 300;
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.weekdays div,
+.days div {
+    text-align: center;
+    width: 14.28%;
+}
+
+.days div {
+    padding: 10px 0;
+    margin-bottom: 10px;
+    transition: all 0.4s;
+}
+
+.prev_date {
+    color: #999;
+}
+
+.today {
+    background-color: #27ae60;
+    color: #fff;
+}
+
+.days div:hover {
+    cursor: pointer;
+    background-color: #dfe6e9
+}
+
+.prev,
+.next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 23px;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+}
+
+.prev:hover,
+.next:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#month {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+/* importent link */
+
+.link{
+    max-width: 350px;
+    height: 600px;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    border: 3px solid #219653;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* main end */
+
+
+/* Footer */
+
+
+.footer-content{
+    background-color: #333333; 
+    height: 200px;
+}
+
+/* Footer  end*/
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px){
+    .hea{
+        display: none;
+    }
+}
+@media (max-width: 991px){
+    .menubarlist li{
+        background-color: #007bff;
+        color: white;
+        width:100%;
+        text-align: center;
+        z-index: 4 ;
+    }
+    .navbar-expand-lg .navbar-collaps{
+        flex-basis: auto;
+    }
+    
+       
+}
+
+@media (max-width: 767px){
+    .profile-img{
+        width: 200px;
+        height: 200px;
+    }  
+    .profile{
+        height: 520px;
+        max-width: 700px;
+    }
+    .button{
+        margin-left: 72%;
+    }
+    .modal-content{
+        max-width: 470px;
+        
+    }
+    .right{
+        text-align:center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile4{
+        height: 510px;
+        
+    }
+    .footer-content{
+        height: 510px;
+    }
+    
+}
+@media (max-width: 1199px){
+    .mujib-logo{
+        margin-left: 0px;
+        max-width: 700px;
+        position: relative;
+        justify-content: center;
+        
+    }
+    .profile{
+        position: relative;
+        justify-content: center;
+    }
+    .profile2{
+        text-align: justify;
+
+    }
+    .Calendar{
+        margin-left: 0px;
+        max-width: 700px;
+        position: relative;
+        justify-content: center;
+    }
+    .link{
+        margin-left: 0px;
+        max-width: 700px;
+        position: relative;
+        justify-content: center;
+    }
+}
+
+
+@media (min-width: 1200px){
+    .right{
+        position: relative;
+    }
+    .mujib-logo{
+        position: relative;
+        
+    }
+    
+    
+}
+
+
+
+/* phone wize  */
+
+@media (max-width: 414px){
+    .modal-content{
+        max-width: 400px;
+    }
+    .button{
+        margin-left: 13rem;
+    }
+    .profile{
+        height: 580px;
+    }
+    .footer-text{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:411px){
+    .profile{
+        height: 580px;
+    }
+    .button{
+        margin-left: 10rem;
+    }
+    .profile3{
+        height: 300px;
+    }
+    .profile4{
+        height: 580px;
+    }
+    .notice-text{
+        font-size:20px ;
+    }
+    .modal-content{
+        max-width: 400px;
+        
+    }
+    .footer-text{
+        font-size:10px ;
+    }
+}
+@media (max-width: 375px){
+    .modal-content{
+        max-width: 350px;
+    }
+}
+
+@media (max-width:360px){
+
+    .profile{
+        height: 600px;
+    }
+    .button{
+        margin-left: 10rem;
+    }
+    .profile3{
+        height: 300px;
+    }
+    .profile4{
+        height: 600px;
+    }
+    .notice-text{
+        font-size:20px ;
+    }
+    .modal-content{
+        max-width: 350px;   
+    }
+    
+}
+
+@media (max-width: 322px){
+    .modal-content{
+        max-width: 300px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* color - code */
+.color{
+    background-color: #007bff
+    #6610f2
+    #6f42c1
+    #e83e8c
+    #dc3545
+    #fd7e14
+    #ffc107
+    #28a745
+    #20c997
+    #17a2b8
+    #fff
+    #6c757d
+    #343a40
+    #007bff
+    #6c757d
+    #28a745
+    #17a2b8
+    #ffc107
+    #dc3545
+    #f8f9fa
+    #343a40
+    }
